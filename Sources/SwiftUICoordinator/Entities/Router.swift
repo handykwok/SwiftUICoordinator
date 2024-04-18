@@ -13,6 +13,8 @@ import Foundation
 public final class Router: ObservableObject {
     /// The array of navigable views managed by the router.
     @Published var navigableViews: [NavigableView] = []
+    
+    public init() {}
 }
 
 extension Router: Routable {
