@@ -19,7 +19,7 @@ public final class RootModulesFactory {
      
      - Parameter modulesFactory: The factory responsible for creating modules.
      */
-    init(modulesFactory: ModulesFactoring) {
+    public init(modulesFactory: ModulesFactoring) {
         self.modulesFactory = modulesFactory
     }
 }

@@ -12,5 +12,7 @@ import Foundation
  
  This class conforms to the `ModulesFactoring` protocol.
  */
-public final class ModulesFactory: ModulesFactoring {}
+public final class ModulesFactory: ModulesFactoring {
+    public init() {}
+}
 

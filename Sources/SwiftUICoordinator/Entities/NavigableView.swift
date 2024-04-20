@@ -17,5 +17,9 @@ public struct NavigableView: Navigable {
     
     /// The view associated with the navigable view.
     public let view: AnyView
+    
+    public init(view: AnyView) {
+        self.view = view
+    }
 }
 
