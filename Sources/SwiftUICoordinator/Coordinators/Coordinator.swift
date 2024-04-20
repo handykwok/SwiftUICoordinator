@@ -45,3 +45,16 @@ public typealias ConcreteCoordinator<T> = (coordinator: Coordinator, input: T)
  */
 public protocol CoordinatorFactoring {}
 
+
+public final class CoordinatorsFactory {
+    let rootModulesFactory: RootModulesFactoring
+    let modulesFactory: ModulesFactoring
+    
+    public init(
+        rootModulesFactory: RootModulesFactoring,
+        modulesFactory: ModulesFactoring
+    ) {
+        self.rootModulesFactory = rootModulesFactory
+        self.modulesFactory = modulesFactory
+    }
+}
