@@ -24,3 +24,5 @@ public final class RootModulesFactory {
     }
 }
 
+extension RootModulesFactory: RootModulesFactoring {}
+
