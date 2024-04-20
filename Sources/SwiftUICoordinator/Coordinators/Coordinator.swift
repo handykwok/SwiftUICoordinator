@@ -47,8 +47,8 @@ public protocol CoordinatorFactoring {}
 
 
 public final class CoordinatorsFactory {
-    let rootModulesFactory: RootModulesFactoring
-    let modulesFactory: ModulesFactoring
+    public let rootModulesFactory: RootModulesFactoring
+    public let modulesFactory: ModulesFactoring
     
     public init(
         rootModulesFactory: RootModulesFactoring,
