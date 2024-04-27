@@ -12,14 +12,14 @@ import Foundation
  */
 public final class RootModulesFactory {
     /// The factory responsible for creating modules.
-    public let modulesFactory: ModulesFactoring
+    public let modulesFactory: ModulesFactory
     
     /**
      Initializes the `RootModulesFactory` with a specified modules factory.
      
      - Parameter modulesFactory: The factory responsible for creating modules.
      */
-    public init(modulesFactory: ModulesFactoring) {
+    public init(modulesFactory: ModulesFactory) {
         self.modulesFactory = modulesFactory
     }
 }
