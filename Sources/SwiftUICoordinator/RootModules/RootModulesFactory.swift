@@ -12,7 +12,7 @@ import Foundation
  */
 public final class RootModulesFactory {
     /// The factory responsible for creating modules.
-    private let modulesFactory: ModulesFactoring
+    public let modulesFactory: ModulesFactoring
     
     /**
      Initializes the `RootModulesFactory` with a specified modules factory.
