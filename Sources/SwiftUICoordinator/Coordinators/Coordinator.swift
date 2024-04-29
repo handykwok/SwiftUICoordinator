@@ -48,11 +48,11 @@ public protocol CoordinatorFactoring {}
 
 public final class CoordinatorsFactory {
     public let rootModulesFactory: RootModulesFactoring
-    public let modulesFactory: ModulesFactoring
+    public let modulesFactory: ModulesFactory
     
     public init(
         rootModulesFactory: RootModulesFactoring,
-        modulesFactory: ModulesFactoring
+        modulesFactory: ModulesFactory
     ) {
         self.rootModulesFactory = rootModulesFactory
         self.modulesFactory = modulesFactory
